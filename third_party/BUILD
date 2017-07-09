@@ -5,4 +5,5 @@ scala_library(
     exports = [
         "@me_chrons_boopickle_2_11//jar:file",
     ],
+    runtime_deps = ["@me_chrons_boopickle_2_11//jar"]
 )
